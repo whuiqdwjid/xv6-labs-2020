@@ -32,7 +32,6 @@ import matplotlib
 matplotlib.use('Agg')  # 远程只能用Agg，安装qt没试
 import matplotlib.pyplot as plt
 
-
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
